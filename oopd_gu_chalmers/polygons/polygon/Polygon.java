@@ -9,10 +9,10 @@ import java.awt.*;
 public abstract class Polygon extends JComponent{
     public Point centerPoint;
 
-    public Polygon(Point center){
+    Polygon(Point center){
         this.centerPoint = center;
     }
-    public Polygon(int x, int y){
+    Polygon(int x, int y){
         this(new Point(x,y));
     }
 

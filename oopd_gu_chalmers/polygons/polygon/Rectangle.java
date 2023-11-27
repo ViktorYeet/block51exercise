@@ -9,8 +9,8 @@ import java.awt.*;
 //  for the concrete subclasses, making them package-private,
 //  i.e. only available to other classes within the oopd_gu_chalmers.polygons.polygon
 //  package. Can you do that now?
-public class Rectangle extends Polygon {
-    public Rectangle(int x, int y) {
+class Rectangle extends Polygon {
+    Rectangle(int x, int y) {
         super(x,y);
     }
 
